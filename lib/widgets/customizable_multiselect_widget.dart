@@ -68,7 +68,7 @@ class _CustomizableMultiselectWidgetState
     return effectiveDecoration.copyWith(
       errorText: effectiveDecoration.errorText ?? '',
       counterStyle: effectiveDecoration.errorStyle ??
-          themeData.textTheme.caption!.copyWith(color: themeData.errorColor),
+          themeData.textTheme.bodySmall!.copyWith(color: themeData.colorScheme.error),
     );
   }
 
